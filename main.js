@@ -19,16 +19,7 @@ form.addEventListener('submit', (evento) =>{
 
     localStorage.setItem("tarefas", JSON.stringify(tarefas))
 
-    if (tarefa.value == ''){
-
-        boxTarefa.style.borderColor = 'red'
-
-    } else{
-
-        boxTarefa.style.borderColor = '#271e1d'
-        createCheck(tarefa.value)
-    }
-
+    createCheck(tarefa.value)
     tarefa.value = ''
 
 })

@@ -101,7 +101,7 @@ textarea:focus, input:focus {
 }
 
 .typing-animation{
-    animation: typing 2s 0s steps(40) normal;
+    animation: typing 2s 0s normal;
     display: flex;
     flex-direction: row-reverse;
     justify-content: start;
